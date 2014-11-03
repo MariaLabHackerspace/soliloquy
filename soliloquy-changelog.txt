@@ -1,0 +1,48 @@
+v1.1.2  - Added missing translation functions
+        - Point footer credit link at Theme URI
+        - Removed http/s: from all Google Font includes
+
+v1.1.1  - Added missing translation functions
+        - Fixed 404 layout issue with missing container
+        - Fixed faulty test if post had thumnbnail
+        - Fixed search image layout issue
+        - Added links to content on featured images on blog
+        - Get fonts via https
+        - Removed fancybox from options panel
+        - Added padding under post/page featured images
+        - Added improved HR style
+        - Added updated default text styles
+
+v1.1.0  - removed alt frontpage conditions from banner.php
+        - Fixed stacking issue with sidebar on mobile
+        - Updated theme options panel
+        - Added fontawesome
+
+v1.0.9  - Remove check for register_nav_menu"
+
+v1.0.8  - Move global content_width outside of conditional
+
+v1.0.7  - Fixed missing global var $content_width and moved to after_setup_theme
+
+v1.0.6  - Fixed meta title function to fix blank frontpage title issue and double feed title
+
+v1.0.5  - Added top and bottom margins to align classes
+        - Fixed logged_in_as layout in comment_form()
+
+v1.0.4  - Made functions pluggable
+        - Fixed wrong theme lited in licence.txt
+
+v1.0.3  - Moved comment fields into comment_form function 
+
+v1.0.2  - Fixed padding issues in footer and pagination
+        - Fixed 404 with new template and exclude from loop.php
+        - Reworked comments to simplify css and layout using native bootstrap utils
+        - Fixed broken bio display option on single posts
+        - Fixed background color issue on fp feature boxes - now set with content bg option
+        - Added default single post sidebar
+
+v1.0.1  - Changed images in screenshot.png and added licencing information to readme.txt
+        - Added esc_url validation to text logo
+        - Remove unique wp_enqueue_script('jquery') to default to call as dependency for bootstrap
+
+v1.0.0 	- Initial Launch 
