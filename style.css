@@ -430,3 +430,7 @@ Responsive
     .comment-avatar img { width:30px; height:auto; }
 
 }
+
+.page.type-page .bio_wrap {
+  display: none;
+}
