@@ -24,4 +24,3 @@
     echo $close_link;
     get_template_part( 'parts/image', 'caption');
 ?>
-<div class="clear30"></div>
