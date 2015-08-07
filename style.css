@@ -431,6 +431,7 @@ Responsive
 
 }
 
+.content_constrain > .author,
 .page.type-page .bio_wrap {
   display: none;
 }
